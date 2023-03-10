@@ -1,10 +1,12 @@
+
 /**
  * first
  */
 import java.util.Scanner;
+
 public class first {
 
-    public static void main(String[]args) {
+    public static void main(String[] args) {
         // System.out.println("Hello World");
         // Scanner myInput = new Scanner(System.in);
         // int a = myInput.nextInt();
@@ -20,10 +22,11 @@ public class first {
         // studentUser.login();
         // teacherUser.login();
 
-        User user1 = new User();
-        user1.login("James");
+        // User user1 = new User();
+        // user1.login("James");
 
-
+        User myUser = new User("helya");
+        System.out.println(myUser.firstName);
 
     }
 }

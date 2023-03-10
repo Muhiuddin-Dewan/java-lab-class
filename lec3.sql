@@ -1,0 +1,14 @@
+--select last_name||' current salary is', salary+(salary*nvl(commission_pct,0))*12 from employees;
+--select * from employees where last_name like 'S%';
+--select * from employees where department_id in (10, 20, 40) order by department_id, salary desc;
+--select employee_id, last_name, salary, department_id from employees where employee_id=&employee_num;
+--select lower('SQL Course') from dual;
+--select initcap('sQL course') from dual;
+--select concat('Hello', 'World') from dual;
+--select substr('helloworld',1,5) from dual;
+--select length('helloworld') from dual;
+--select instr('helloworld','w') from dual;
+--select lpad('helloworld',15,'*') from dual;
+--select rpad('helloworld',15,'*') from dual;
+--select replace('hello','h','he') from dual;
+select round(54.593,2) from dual;

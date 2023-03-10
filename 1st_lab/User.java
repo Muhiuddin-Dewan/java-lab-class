@@ -1,13 +1,12 @@
 public class User {
-    public String firstName = "outside the method";
-    public String lastName;
-    public String middleName;
-    private int id;
+    public String firstName = "outside";
+    // public String lastName;
+    // public String middleName;
+    // private int id;
 
-    public void login(String firstName){
+    public User(String firstName) {
         // loging using user and pwd
         // System.out.println("normal login");
         this.firstName = firstName;
-        System.out.println(firstName);
     }
 }
